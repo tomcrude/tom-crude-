@@ -8,18 +8,17 @@ const nextConfig = {
     path: '',
   },
 }
-const moduleExports = {
-  async rewrites() {
+
+module.exports = {
+  async redirects() {
     return [
       {
         source: 'https://www.tom-crude.vercel.app/',
-        destination: 'https://tom-crude.vercel.app/'
-      }
+        destination: 'https://tom-crude.vercel.app/',
+        permanent: true,
+      },
     ]
-  }
-};
-
-
-module.exports = moduleExports;
+  },
+}
 
 module.exports = nextConfig
