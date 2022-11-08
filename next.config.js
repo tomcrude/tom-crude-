@@ -12,8 +12,8 @@ const moduleExports = {
   async rewrites() {
     return [
       {
-        source: '/foo',
-        destination: '/bar'
+        source: 'https://www.tom-crude.vercel.app/',
+        destination: 'https://tom-crude.vercel.app/'
       }
     ]
   }
