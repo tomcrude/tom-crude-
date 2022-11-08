@@ -89,7 +89,7 @@ li{
   object-fit: contain;
   background-repeat:no-repeat;
   background-position:50% 0;
-  background-image: url("../public/back.png");
+  background-image: url("../public/back_phone.png");
   
   z-index: -1;
   position: fixed;
@@ -176,6 +176,7 @@ li{
     width: 50%;
     height: 100%;
     background-position:50% 0;
+    background-image: url("../public/back.png");
   }
   .img-x{
     margin-left: 55%;
