@@ -121,7 +121,7 @@ let ima = require(`../public/${name}${x}.png`)
     <div className="row">
     <a className="text-center mb-xl-4" href="#index">BACK TO TOP</a>  
     </div>
-    <p className="mt-4 text-muted">© Arselmetti. All rights reserved.</p>
+    <p className="mt-4 text-muted">© Tom Crude. All rights reserved.</p>
   </footer>
 
           
